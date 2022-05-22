@@ -2,8 +2,9 @@
 ## TransRA: transformer and residual attention fusion for single remote sensing image dehazing(https://doi.org/10.1007/s11045-022-00835-x)
 ### Dependencies and Installation
 
-* python3.7
-* PyTorch >= 1.0
+* python3.8.5
+* anaconda
+* PyTorch =1.8.0
 * NVIDIA GPU+CUDA
 * numpy
 * matplotlib
@@ -30,7 +31,7 @@ python test.py --model_save_dir results
  
  ## Qualitative Results
 
-Results on NTIRE 2021 NonHomogeneous Dehazing Challenge testing images:
+Quantitative comparisons over SateHaze1k for different methods:
 
 <div style="text-align: center">
 <img alt="" src="/images/thick.png" style="display: inline-block;" />
